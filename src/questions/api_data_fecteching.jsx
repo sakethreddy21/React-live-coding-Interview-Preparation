@@ -17,13 +17,13 @@ const headings2= Object.keys(data[0]).filter((key)=>key!=='userId')
   };
   const Onpre = (index) => {
     if (index > 0) {
-      setStartIndex(index - 10); // Update the state with the new index
+      setStartIndex(index - 10); 
     }
   };
 
   const OnNext = (index) => {
     if (index + 10 < todos.length) {
-      setStartIndex(index + 10); // Update the state with the new index
+      setStartIndex(index + 10); 
     }
   };
 
